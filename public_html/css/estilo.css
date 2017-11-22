@@ -1,0 +1,30 @@
+#margin{
+    margin: 0px;
+}
+#menuhorizontal_1{
+   margin-left: 150px; 
+   size: 5px;
+}
+#menuhorizontal_bg{
+    background-color: #ffffff;
+    
+}
+
+/*banner*/
+
+#bannermargin{
+    margin-top: 0px;
+    
+}
+
+
+
+#rodapé{
+    background-color: gray;
+    margin-left: 1px;
+    paddin: 5px;
+    text-align: center;
+    
+}
+
+
