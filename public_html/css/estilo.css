@@ -16,16 +16,16 @@
     border:none;
     background-color: #3CB944;
 }
-#dropmenuu:link,
-#dropmenuu:visited 
-#dropmenuu:focus
-#dropmenuu:disabled
-#dropmenuu:acitve
+#dropmenuu:link{border:green;box-shadow: none;}
+#dropmenuu:visited{border:green;box-shadow: none;}
+#dropmenuu:focus{border:green;box-shadow: none;}
+#dropmenuu:disabled{border:green;box-shadow: none;}
+#dropmenuu:acitve{border:green;box-shadow: none;}
 #dropmenuu:hover{
-    border:none;
-    box-shadow: none;
-    outline: none;
+    background-color: #ffffff;
+    color:#3CB944;
 }
+
 
 /*Menus*/
 
