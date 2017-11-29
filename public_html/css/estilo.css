@@ -217,3 +217,61 @@ background-color: grey;
     padding: 6px 2px 10px 2px; 
 }
 
+
+/*Carrinho*/
+.form-controll {
+    display: block;
+    width: 50%;
+    padding: 10px 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.form-controll::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-controll:focus {
+    color: #000000;
+    background-color: #fff;
+    border-color: #3CB944;
+    outline: none;
+
+}
+
+.form-controll::-webkit-input-placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-controll:-ms-input-placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-controll::-ms-input-placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-controll::placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-controll:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+
